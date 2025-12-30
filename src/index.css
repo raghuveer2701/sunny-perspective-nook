@@ -8,37 +8,37 @@
 
 @layer base {
   :root {
-    /* Base Colors - Warm Cream Theme */
-    --background: 32 71% 91%; /* #fce5cf - Warm cream */
-    --foreground: 0 0% 0%; /* Pure black */
+    /* Base Colors - Clean & Modern */
+    --background: 60 20% 95%; /* Soft warm white */
+    --foreground: 220 20% 10%; /* Near black with warmth */
 
     /* Card Colors */
-    --card: 32 71% 91%;
-    --card-foreground: 0 0% 0%;
+    --card: 60 20% 95%;
+    --card-foreground: 220 20% 10%;
 
     /* Primary Action Colors */
-    --primary: 322 82% 83%; /* #f7b0e0 - Lavender */
-    --primary-foreground: 0 0% 0%;
-    --primary-hover: 29 100% 50%; /* #fc8500 - Orange */
+    --primary: 156 72% 50%; /* Money green */
+    --primary-foreground: 220 20% 10%;
+    --primary-hover: 156 72% 40%; /* Darker green */
 
     /* Secondary Actions */
-    --secondary: 288 38% 40%; /* #7C3F8D - Deep Purple */
-    --secondary-foreground: 0 0% 100%;
-    --secondary-hover: 288 38% 32%; /* #6B3678 - Purple Hover */
+    --secondary: 45 90% 55%; /* Golden yellow */
+    --secondary-foreground: 220 20% 10%;
+    --secondary-hover: 45 90% 45%;
 
     /* Accent Colors */
-    --accent-red: 16 100% 50%; /* #ff5400 */
-    --accent-pink: 332 100% 73%; /* #ff75ba */
+    --accent-red: 16 100% 50%;
+    --accent-pink: 332 100% 73%;
 
     /* Vibrant Card Backgrounds */
-    --card-yellow: 45 91% 62%; /* #F6C744 */
-    --card-purple: 273 61% 78%; /* #C8A8E9 */
-    --card-magenta: 321 68% 57%; /* #D946A0 */
-    --card-blue: 199 92% 73%; /* #7DD3FC */
-    --card-coral: 349 89% 72%; /* #FB7185 */
-    --card-mint: 156 72% 67%; /* #6EE7B7 */
-    --card-orange: 24 90% 61%; /* #FB923C */
-    --card-lavender: 248 84% 84%; /* #C4B5FD */
+    --card-yellow: 48 95% 60%; /* Bright gold */
+    --card-purple: 273 61% 78%;
+    --card-magenta: 321 68% 57%;
+    --card-blue: 199 92% 73%;
+    --card-coral: 349 89% 72%;
+    --card-mint: 156 72% 67%; /* Money green mint */
+    --card-orange: 24 90% 61%;
+    --card-lavender: 248 84% 84%;
 
     /* Dark Mode Colors */
     --dark-background: 20 18% 16%; /* #2D2520 */
