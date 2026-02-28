@@ -17,148 +17,90 @@ export interface Article {
 export const articles: Article[] = [
   {
     id: "1",
-    title: "BUILDING A CAPSULE WARDROBE",
-    excerpt: "Discover how to curate a versatile wardrobe with fewer pieces that work seamlessly together, creating endless styling possibilities while embracing sustainable fashion.",
-    date: "March 19, 2025",
-    image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&h=800&fit=crop",
-    slug: "building-capsule-wardrobe",
+    title: "CRYPTO 2024: THE INDIA GUIDE",
+    excerpt: "Navigating the volatile world of cryptocurrency in India. Top exchanges, safety protocols, and how to avoid getting liquidated.",
+    date: "March 20, 2025",
+    image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=800&h=800&fit=crop",
+    slug: "crypto-india-guide-2024",
     colorClass: "bg-vibrant-purple",
     author: {
-      name: "Sofia Laurent",
-      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"
+      name: "Maverick",
+      avatar: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=100&h=100&fit=crop"
     },
-    readTime: "5 min",
+    readTime: "8 min",
     content: `
-      <p>The capsule wardrobe concept has revolutionized how we approach getting dressed. It's not about restriction—it's about intentional curation and discovering your authentic style.</p>
+      <p>Cryptocurrency in India is a high-G maneuver. The regulatory landscape shifts fast, but the potential for gains remains massive. Here is your flight plan for 2024.</p>
       
-      <h2>UNDERSTANDING THE FOUNDATION</h2>
-      <p>A capsule wardrobe typically consists of 30-40 versatile pieces that can be mixed and matched to create multiple outfits. The key is selecting items that reflect your lifestyle and personal aesthetic.</p>
-      
-      <h2>STARTING WITH ESSENTIALS</h2>
-      <p>Begin with classic pieces: a well-fitted blazer, quality denim, crisp white shirts, and neutral basics. These foundational items form the backbone of your wardrobe and never go out of style.</p>
-      
-      <h2>COLOR HARMONY</h2>
-      <p>Choose a cohesive color palette that complements your skin tone and personal style. Neutrals like black, white, navy, and beige provide versatility, while one or two accent colors add personality.</p>
-      
-      <h2>QUALITY OVER QUANTITY</h2>
-      <p>Invest in well-made pieces that will last. Look for quality fabrics, proper construction, and timeless silhouettes. A higher price point per item often means better longevity and less overall spending.</p>
-      
-      <h2>SEASONAL TRANSITIONS</h2>
-      <p>Rotate pieces seasonally while maintaining your core wardrobe. Layering pieces like cardigans and lightweight jackets allow your capsule to work year-round.</p>
-      
-      <p>Building a capsule wardrobe is a journey of self-discovery. It teaches you what you truly love to wear and helps eliminate decision fatigue while promoting more sustainable fashion choices.</p>
+      <h2>THE TOP EXCHANGES</h2>
+      <p>Not all decks are safe to land on. We recommend sticking to compliant exchanges with robust liquidity.</p>
+      <ul>
+        <li><strong>CoinDCX:</strong> Good for beginners, compliant with local laws.</li>
+        <li><strong>WazirX:</strong> High volume, but watch the withdrawal fees.</li>
+        <li><strong>Binance (P2P):</strong> The heavy hitter, but navigate the P2P market with caution.</li>
+      </ul>
+
+      <h2>RISK MANAGEMENT</h2>
+      <p>Never fly without a parachute. In crypto, that means stop-losses and cold storage.</p>
+      <p><strong>Hardware Wallets:</strong> If you hold more than ₹50,000 in crypto, get a Ledger or Trezor. Not your keys, not your coins.</p>
+
+      <h2>TAXATION (THE FLAK)</h2>
+      <p>Remember the 30% flat tax on gains and the 1% TDS on transactions. Factor this into your flight path or you'll burn fuel fast.</p>
     `
   },
   {
     id: "2",
-    title: "SUSTAINABLE FASHION LUXURY",
-    excerpt: "Explore how conscious design is reshaping the fashion industry, from innovative materials to transparent production practices.",
-    date: "March 15, 2025",
-    image: "https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=800&h=800&fit=crop",
-    slug: "sustainable-fashion-luxury",
-    colorClass: "bg-vibrant-yellow",
+    title: "WORK FROM HOME: NO SCAMS",
+    excerpt: "Legitimate remote work opportunities in India that pay in actual currency, not 'exposure' or points. Verified platforms only.",
+    date: "March 18, 2025",
+    image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=800&fit=crop",
+    slug: "work-from-home-legit",
+    colorClass: "bg-vibrant-blue",
     author: {
-      name: "Alessandro Verde",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+      name: "Iceman",
+      avatar: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop"
     },
-    readTime: "7 min"
+    readTime: "6 min"
   },
   {
     id: "3",
-    title: "THRIFTING DESIGNER PIECES",
-    excerpt: "Learn the art of vintage shopping and how to spot authentic designer gems while building a unique, sustainable wardrobe.",
-    date: "March 10, 2025",
-    image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=800&fit=crop",
-    slug: "thrifting-designer-pieces",
-    colorClass: "bg-vibrant-mint",
+    title: "GOLD VS SGB: EMERGENCY FUNDS",
+    excerpt: "Where to park your safety net. Physical gold has emotion, but Sovereign Gold Bonds pay you interest to hold them.",
+    date: "March 15, 2025",
+    image: "https://images.unsplash.com/photo-1610375460993-441e97f8d6fc?w=800&h=800&fit=crop",
+    slug: "gold-vs-sgb-investment",
+    colorClass: "bg-vibrant-yellow",
     author: {
-      name: "Isabella Monroe",
-      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop"
+      name: "Maverick",
+      avatar: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=100&h=100&fit=crop"
     },
-    readTime: "6 min"
+    readTime: "5 min"
   },
   {
     id: "4",
-    title: "MASTERING YOUR COLOR PALETTE",
-    excerpt: "Unlock the power of color to enhance your natural features and create stunning, cohesive outfits that express your unique style.",
-    date: "February 28, 2025",
-    image: "https://images.unsplash.com/photo-1525562723836-dca67a71d5f1?w=800&h=800&fit=crop",
-    slug: "color-palette-fashion",
-    colorClass: "bg-vibrant-coral",
+    title: "TRADING DESK UNDER ₹50K",
+    excerpt: "You don't need a Bloomberg terminal. A solid laptop, a reliable monitor, and a distraction-free environment are your weapons.",
+    date: "March 10, 2025",
+    image: "https://images.unsplash.com/photo-1593640408182-31c70c8268f5?w=800&h=800&fit=crop",
+    slug: "trading-desk-setup-budget",
+    colorClass: "bg-vibrant-mint",
     author: {
-      name: "Sofia Laurent",
-      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"
+      name: "Iceman",
+      avatar: "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&h=100&fit=crop"
     },
-    readTime: "5 min"
+    readTime: "7 min"
   },
   {
     id: "5",
-    title: "WHY CUSTOM FIT MATTERS",
-    excerpt: "Discover how proper tailoring transforms off-the-rack pieces into perfectly fitted garments that elevate your entire wardrobe.",
-    date: "February 20, 2025",
-    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=800&h=800&fit=crop",
-    slug: "custom-fit-tailoring",
-    colorClass: "bg-vibrant-blue",
+    title: "CRACKING THE FAANG INTERVIEW",
+    excerpt: "The cheat sheet for landing high-paying tech jobs. Data structures, system design, and the soft skills that close the deal.",
+    date: "March 05, 2025",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&h=800&fit=crop",
+    slug: "faang-interview-guide",
+    colorClass: "bg-vibrant-coral",
     author: {
-      name: "Alessandro Verde",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
+      name: "Maverick",
+      avatar: "https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=100&h=100&fit=crop"
     },
-    readTime: "4 min"
-  },
-  {
-    id: "6",
-    title: "STATEMENT PIECES STYLING",
-    excerpt: "Master the art of accessorizing to transform simple outfits into memorable looks with jewelry, bags, and scarves.",
-    date: "February 15, 2025",
-    image: "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&h=800&fit=crop",
-    slug: "statement-pieces-styling",
-    colorClass: "bg-vibrant-magenta",
-    author: {
-      name: "Isabella Monroe",
-      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop"
-    },
-    readTime: "6 min"
-  },
-  {
-    id: "7",
-    title: "UNDERSTANDING TEXTILE QUALITY",
-    excerpt: "Learn to identify premium fabrics and understand how material choice impacts garment longevity, comfort, and style.",
-    date: "February 10, 2025",
-    image: "https://images.unsplash.com/photo-1558769132-cb1aea1847c8?w=800&h=800&fit=crop",
-    slug: "textile-quality-guide",
-    colorClass: "bg-vibrant-orange",
-    author: {
-      name: "Sofia Laurent",
-      avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop"
-    },
-    readTime: "8 min"
-  },
-  {
-    id: "8",
-    title: "EMERGING FASHION DESIGNERS",
-    excerpt: "Spotlight on innovative new designers who are redefining fashion with fresh perspectives and boundary-pushing creativity.",
-    date: "February 5, 2025",
-    image: "https://images.unsplash.com/photo-1558769132-92e717d613cd?w=800&h=800&fit=crop",
-    slug: "emerging-fashion-designers",
-    colorClass: "bg-vibrant-lavender",
-    author: {
-      name: "Alessandro Verde",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop"
-    },
-    readTime: "5 min"
-  },
-  {
-    id: "9",
-    title: "MONOCHROME STYLING GUIDE",
-    excerpt: "Master the sophisticated art of head-to-toe monochromatic dressing for effortlessly chic and elongating looks.",
-    date: "January 28, 2025",
-    image: "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=800&h=800&fit=crop",
-    slug: "monochrome-styling-guide",
-    colorClass: "bg-vibrant-yellow",
-    author: {
-      name: "Isabella Monroe",
-      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop"
-    },
-    readTime: "7 min"
+    readTime: "10 min"
   }
 ];
