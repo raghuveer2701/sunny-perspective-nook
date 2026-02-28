@@ -19,13 +19,20 @@ const NewsletterForm = ({
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-
-    // Simulate API call
-    setTimeout(() => {
-      toast.success("Thanks for subscribing!");
+    
+    // Send to Google Form or your backend
+    try {
+      const googleFormUrl = "YOUR_GOOGLE_FORM_URL_HERE"; // Replace with your actual URL
+      // await fetch(googleFormUrl, { method: 'POST', body: new FormData(e.target as HTMLFormElement) });
+      
+      console.log("Subscriber:", email); // Temporary log
+      toast.success("Welcome to the Earn Dabbu squad!");
+    } catch (error) {
+      toast.error("Failed to join. Try again.");
+    } finally {
       setEmail("");
       setIsSubmitting(false);
-    }, 1000);
+    }
   };
 
   return (
