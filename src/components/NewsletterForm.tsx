@@ -20,17 +20,25 @@ const NewsletterForm = ({
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Send to Google Form or your backend
+    // Google Sheets Web App URL
+    const scriptURL = "https://script.google.com/macros/s/AKfycbzv0AJoSkq4or8vmULjaJTnnFd8DtXUlH97xEgA8WUmAviipBDpkLJhEIAzJrjuOe-V/exec";
+
     try {
-      const googleFormUrl = "YOUR_GOOGLE_FORM_URL_HERE"; // Replace with your actual URL
-      // await fetch(googleFormUrl, { method: 'POST', body: new FormData(e.target as HTMLFormElement) });
+      await fetch(scriptURL, {
+        method: 'POST',
+        mode: 'no-cors', // Important for Google Apps Script
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+      });
       
-      console.log("Subscriber:", email); // Temporary log
       toast.success("Welcome to the Earn Dabbu squad!");
-    } catch (error) {
-      toast.error("Failed to join. Try again.");
-    } finally {
       setEmail("");
+    } catch (error) {
+      console.error('Error!', error);
+      toast.error("Failed to join. Check your connection.");
+    } finally {
       setIsSubmitting(false);
     }
   };
